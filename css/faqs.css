@@ -1,0 +1,34 @@
+.container-faqs {
+    padding-top: 70px;
+}
+
+.term-pic {
+    height: 400px;
+    width: auto;
+    background-image: url(../img/carrousel/sts.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#faqs h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+#faqs .faq-title {
+    padding-top: 10px;
+    padding-bottom: 1.5%
+}
+
+.term-faq {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.termo-nav {
+    padding-top: 1.5%;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="es" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="es" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="es" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="es" class="no-js"> <!--<![endif]-->
+    <head>
+    	<!-- meta character set -->
+        <meta charset="utf-8">
+		<!-- Always force latest IE rendering engine or request Chrome Frame -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="icon" type="image/png" href="img/Logo.png">
+        <title></title>		
+		<!-- Meta Description -->
+        <meta name="description" content="Soluciones integrales en eficiencia energética, energías renovables y medioambiente.">
+		<meta name="keyword" content="eficiencia, energías, renovables, efficiency, renewable, enviroment, fotovoltaico, photovoltaic, led, illumination, iluminación">
+        <meta name="author" content="gonjav88">
+		
+		<!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- CSS
+		================================================== -->
+		
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+		
+		<!-- Fontawesome Icon font -->
+        <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.6.3/css/font-awesome.min.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/slit-slider.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+
+		<!-- Modernizer Script for old Browsers -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        
+        <!-- Essential jQuery Plugins
+		================================================== -->
+		<!-- Main jQuery -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+		<!-- Twitter Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+		<!-- Single Page Nav -->
+        <script src="js/jquery.singlePageNav.min.js"></script>
+		<!-- jquery.fancybox.pack -->
+        <script src="js/jquery.fancybox.pack.js"></script>
+		<!-- Google Map API -->
+		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<!-- Owl Carousel -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- jquery easing -->
+        <script src="js/jquery.easing.min.js"></script>
+        <!-- Fullscreen slider -->
+        <script src="js/jquery.slitslider.js"></script>
+        <script src="js/jquery.ba-cond.min.js"></script>
+		<!-- onscroll animation -->
+        <script src="js/wow.min.js"></script>
+		<!-- Custom Functions -->
+        <script src="js/main.js"></script> 
+        
+        
+        <script language=javascript>
+            var rev = "fwd";
+            function titlebar(val){
+                var msg  = "GreenTech - Eficiencia Energética y Energías Renovables";
+                var res = " ";
+                var speed = 100;
+                var pos = val;
+                msg = ""+msg+"";
+                var le = msg.length;
+                if(rev == "fwd"){
+                    if(pos < le){
+                        pos = pos+1;
+                        scroll = msg.substr(0,pos);
+                        document.title = scroll;
+                        timer = window.setTimeout("titlebar("+pos+")",speed);
+                    }
+                    else {
+                        rev = "bwd";
+                        timer = window.setTimeout("titlebar("+pos+")",speed);
+                    }
+                }
+                else {
+                    if(pos > 0) {
+                        pos = pos-1;
+                        var ale = le-pos;
+                        scrol = msg.substr(ale,le);
+                        document.title = scrol;
+                        timer = window.setTimeout("titlebar("+pos+")",speed);
+                    }
+                    else {
+                        rev = "fwd";
+                        timer = window.setTimeout("titlebar("+pos+")",speed);
+                    }
+                }
+            }
+            titlebar(0);
+        </script>
+        
+    </head>
+    
+    <body id="body">
+        <section id="main-port">
+        
+            <div id="slider" class="sl-slider-wrapper">
+
+				<div class="sl-slider">
+				
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="0" data-slice2-rotation="0" data-slice1-scale="1" data-slice2-scale="1">
+
+						<div class="bg-img bg-img-index"></div>  <!-- ver en slit-slider.css -->
+
+						<div class="slide-caption">
+                            <div class="caption-content">
+                               <div class="container-fluid">
+									<div class="row">
+										<div class="caption-content col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                            
+                                                <img class="wow animated fadeInLeft" data-wow-delay="1s" src="img/icons/house.png">
+                                            
+                                            <span class="wow animated fadeInLeft" data-wow-delay="2.5s">Hogares</span>
+                                        </div>
+                                        
+										<div class="caption-content col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                           
+											 <img class="wow animated fadeInLeft" data-wow-delay="1.5s" src="img/icons/enterprise.png">
+                                            
+                                            <span class="wow animated fadeInUp" data-wow-delay="2.5s">Empresas</span>
+										</div>	
+                                        
+										<div class="caption-content col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                            
+                                                <img class="wow animated fadeInLeft" data-wow-delay="2s" src="img/icons/industry.png">
+                                            
+                                            <span class="wow animated fadeInRight" data-wow-delay="2.5s">Industria</span>
+										</div>
+									</div> <!-- /row -->
+							   </div> <!-- container -->
+                                
+                               <div class="row">
+                                   <a href="main.php">
+                                    <button  class="button wow animated fadeInRight" data-wow-delay="3s"><span>Iniciar </span></button> 
+                                   </a>
+                               </div>
+                                
+                            </div> <!-- caption-content -->
+                        </div>  <!-- slide-caption -->
+						
+					</div>  <!-- sl-slide -->
+				</div><!-- /sl-slider -->
+
+             </div><!-- /slider-wrapper -->
+        
+        </section>
+        
+        
+    </body>
+</html>
